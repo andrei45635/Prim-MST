@@ -37,6 +37,7 @@ void Prim() {
 		sum += G[x][y];
 	}
 	g << sum << '\n';
+	g << no_edge << '\n';
 }
 
 int main() {
